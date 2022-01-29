@@ -1,0 +1,3 @@
+[submodule "code/GlyCompareCT"]
+	path = code/GlyCompareCT
+	url = https://github.com/yuz682/GlyCompareCT
