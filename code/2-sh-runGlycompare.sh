@@ -5,6 +5,6 @@
 # -m <SUBSTRUCTURE_ABUNDANCE_MULTIPLIER>, -c <NUMBER_OF_CORES>, -r <ROOT>, -u <CUSTOM_ROOT>, -d, -s, -b]
 
 python code/GlyCompareCT/glyCompareCT.py structure \
-	-a data-raw/GlyTouCan-GlycoCT.csv \
-	-v data-raw/GlyTouCan-abundance.csv \
-	-o data-final/glytoucan_glycoct. -p glycoCT -c 20
+	-a data-raw/GlyTouCan-abundance.csv \
+	-v data-raw/GlyTouCan-GlycoCT.csv \
+	-o data-final/glytoucan_glycoct -p glycoCT -c 20 -i
